@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Mixer</title>
+</head>
+<body>
+    
+    <div id="boxColor"></div>
+    <div id="colorDisplay"></div>
+    <button onclick="updateColor(event)" data-color="r" data-amount="1" data-posneg="p">Red +1</button>
+    <button onclick="updateColor(event)" data-color="r" data-amount="5" data-posneg="p">Red +5</button>
+    <button onclick="updateColor(event)" data-color="r" data-amount="10" data-posneg="p">Red +10</button>
+    <button onclick="updateColor(event)" data-color="r" data-amount="1" data-posneg="n">Red -1</button>
+    <button onclick="updateColor(event)" data-color="r" data-amount="5" data-posneg="n">Red -5</button>
+    <button onclick="updateColor(event)" data-color="r" data-amount="10" data-posneg="n">Red -10</button>
+    <br />
+    <button onclick="updateColor(event)" data-color="g" data-amount="1" data-posneg="p">Green +1</button>
+    <button onclick="updateColor(event)" data-color="g" data-amount="5" data-posneg="p">Green +5</button>
+    <button onclick="updateColor(event)" data-color="g" data-amount="10" data-posneg="p">Green +10</button>
+    <button onclick="updateColor(event)" data-color="g" data-amount="1" data-posneg="n">Green -1</button>
+    <button onclick="updateColor(event)" data-color="g" data-amount="5" data-posneg="n">Green -5</button>
+    <button onclick="updateColor(event)" data-color="g" data-amount="10" data-posneg="n">Green -10</button>
+    <br />
+    <button onclick="updateColor(event)" data-color="b" data-amount="1" data-posneg="p">Blue +1</button>
+    <button onclick="updateColor(event)" data-color="b" data-amount="5" data-posneg="p">Blue +5</button>
+    <button onclick="updateColor(event)" data-color="b" data-amount="10" data-posneg="p">Blue +10</button>
+    <button onclick="updateColor(event)" data-color="b" data-amount="1" data-posneg="n">Blue -1</button>
+    <button onclick="updateColor(event)" data-color="b" data-amount="5" data-posneg="n">Blue -5</button>
+    <button onclick="updateColor(event)" data-color="b" data-amount="10" data-posneg="n">Blue -10</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
