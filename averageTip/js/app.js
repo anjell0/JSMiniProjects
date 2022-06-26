@@ -8,7 +8,7 @@ function tip() {                                                //Lines 7-25 cre
     let billTotal = Number(txtTipper.value);                    //(only) a number input and multiply it by .18. It
     let tipAmount = Math.round((billTotal * .18) * 100) / 100;  //will then display a "Tip" amount and an overall
     let tip = document.createElement('div')                     //"Total" when "Calculate" is pressed. The text box
-    
+                                                                //is then emptied
     tip.innerHTML = "Tip: $" + tipAmount
     tip.style.fontSize = "30px"
 
