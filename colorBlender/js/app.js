@@ -16,7 +16,7 @@ boxColor.style.width = "600px"                                              //th
 colorDisplay.innerHTML = "Current Color: " + currentColor
 colorDisplay.style.fontSize = "50px"
 
-function updateColor(event) {                                               //Lines 19-38 define the function 
+function updateColor(event) {                                               //Lines 19-51 define the function 
     let chosenColor = event.target.getAttribute('data-color')               //"updateColor" which will, when the
     let increaseAmount = Number(event.target.getAttribute('data-amount'))   //buttons are pressed, will take the
     let posneg = event.target.getAttribute('data-posneg')                   //button's data attributes for color and
