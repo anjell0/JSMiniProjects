@@ -1,0 +1,41 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+body {
+    background-color: pink;
+}
+h1 {
+    text-align: center;
+}
+.projects {
+    width: 75%;
+    margin-left: 12.5%;
+    /* background-color: #f0f; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item {
+    /* border: 2px solid #000; */
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+.item h2 {
+    color:black;
+}
+.item img {
+    width: 75%;
+}
+.item a {
+    text-decoration: none;
+    color: #000;
+}
