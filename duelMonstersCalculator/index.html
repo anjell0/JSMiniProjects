@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duel Calculator</title>
+</head>
+<body>
+    
+    <input id="pName1" style="background-color: pink; color: black;" placeholder="P1 Name">
+    <input id="pName2" style="background-color: pink; color: black;" placeholder="P2 Name">
+    <br>
+    <button onclick="submitName1()" style="background-color: pink; margin-top: 5px;">Enter Name</button>
+    <button onclick="submitName2()" style="background-color: pink; margin-left: 70px;">Enter Name</button>
+    <br>
+    <input type="text" id="change" style="background-color: pink; color: black; margin-top: 5px;" placeholder="Recovery/Damage">
+    <br>
+    <button onclick="calculatePlus1()" style="background-color: greenyellow; margin-top: 5px;">+</button>
+    <button onclick="calculateMinus1()" style="background-color: rgb(230, 120, 80); color: white;">-</button>
+    <button onclick="calculatePlus2()" style="margin-left: 100px; background-color: greenyellow;">+</button>
+    <button onclick="calculateMinus2()" style="background-color: rgb(230, 120, 80); color: white;">-</button>
+    <br>
+    <div id="info"></div>
+    <div id="info2"></div>
+    <br>
+    <div id="info3"></div>
+    <div id="info4"></div>
+    <br>
+    <div id="p1win"></div>
+    <div id="p2win"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
